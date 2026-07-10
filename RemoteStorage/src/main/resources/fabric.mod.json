@@ -1,0 +1,38 @@
+{
+    "schemaVersion": 1,
+    "id": "remotestorage",
+    "version": "${version}",
+    "name": "Remote Storage",
+    "description": "A searchable remote storage interface using vanilla inventories",
+    "authors": [
+        "RemoteStorage Team"
+    ],
+    "contact": {
+        "homepage": "https://github.com/remotestorage/RemoteStorage"
+    },
+    "license": "MIT",
+    "icon": "assets/remotestorage/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.remotestorage.RemoteStorageMod"
+        ],
+        "client": [
+            "com.remotestorage.client.RemoteStorageClient"
+        ]
+    },
+    "mixins": [
+        "remotestorage.mixins.json",
+        {
+            "config": "remotestorage.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "accessWidener": "remotestorage.accesswidener",
+    "depends": {
+        "fabricloader": ">=0.19.0",
+        "minecraft": "~1.21.6",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}

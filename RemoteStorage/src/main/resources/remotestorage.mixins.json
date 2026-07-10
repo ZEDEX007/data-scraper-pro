@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "com.remotestorage.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "ServerPlayNetworkHandlerMixin",
+        "PlayerManagerMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
