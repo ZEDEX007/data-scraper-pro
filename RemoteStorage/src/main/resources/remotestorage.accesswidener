@@ -1,0 +1,8 @@
+accessWidener v2 named
+
+accessible class net/minecraft/class_3874
+accessible field net/minecraft/class_3874 field_17016:Lnet/minecraft/class_1799;
+accessible method net/minecraft/class_3874 method_17026()Lnet/minecraft/class_1799;
+accessible method net/minecraft/class_3874 method_17027(Lnet/minecraft/class_1799;)V
+accessible method net/minecraft/class_3874 method_17028()I
+accessible method net/minecraft/class_3874 method_17029(I)V
